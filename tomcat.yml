@@ -5,7 +5,7 @@
   tasks:
     - name: Download tomcat from dlcdn
       get_url:
-        url: "https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.35/bin/apache-tomcat-10.1.35.tar.gz&quot;
+        url: "https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.35/bin/apache-tomcat-10.1.35.tar.gz"
         dest: "/root/"
 
     - name: untar the apache file
